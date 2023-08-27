@@ -2,7 +2,7 @@ import openai
 import json
 
 # API Keyを設定
-openai.api_key = os.
+openai.api_key = ""
 
 chat_completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo-0613",
